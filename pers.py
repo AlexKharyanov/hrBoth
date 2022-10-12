@@ -10,7 +10,7 @@ import time
 import gspread
 import json
 
-bot = telebot.TeleBot('5742914126:AAHGBHVsUsfeAYzSkhVAL02GU2-Xi9JbcSI')
+bot = telebot.TeleBot('')
 googlesheet_id = '1BeLdVhUHOaz6SKcyUhv3JkHTI5w94ZMsPXyr1_q_Jr4'
 gc = gspread.service_account(filename='maria-359514-cb22a8d7b592.json')
 
